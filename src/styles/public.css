@@ -1,0 +1,30 @@
+html {
+  font-size: 100%;
+  overflow-x: hidden;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+body {
+  font-family: var(--font-family), sans-serif;
+  font-weight: 400;
+  background: var(--color-background);
+  min-height: 100vh;
+  overflow-x: hidden;
+  color: var(--color-text-1);
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+/* -------------- TYPOGRAPHY -------------- */
+
+.TitleB {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.BodyR {
+  font-size: 1rem;
+  font-weight: 400;
+}

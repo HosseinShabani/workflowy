@@ -1,0 +1,6 @@
+.container {
+  max-width: 83rem;
+  width: calc(100% - var(--margin-container));
+  margin: 5rem auto;
+  position: relative;
+}

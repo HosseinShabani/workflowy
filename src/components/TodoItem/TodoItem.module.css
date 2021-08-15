@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+.circle {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--color-primary);
+  margin-right: 0.5rem;
+  border: 7px solid var(--color-background);
+  transition: all 0.3s;
+}
+.done .circle {
+  background: var(--color-bg-2);
+}
+.circle:hover {
+  border: 7px solid var(--color-bg-2);
+}
+.input {
+  display: flex;
+  flex: 1;
+  line-height: 2rem;
+  height: 2rem;
+  outline: none;
+  font-size: 0.9rem;
+  position: relative;
+}
+.input:after {
+  content: "";
+  width: 0%;
+  top: 50%;
+  height: 1px;
+  left: 0;
+  background: var(--color-bg-2);
+  position: absolute;
+  transition: all 0.4s;
+}
+.done .input:after {
+  width: 100%;
+}

@@ -1,0 +1,17 @@
+.container {
+  position: relative;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+  position: relative;
+}
+.list:before {
+  content: "";
+  background: rgba(var(--color-primary-rgb), 0.2);
+  height: 100%;
+  width: 1px;
+  position: absolute;
+  left: 10px;
+}
